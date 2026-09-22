@@ -1,0 +1,27 @@
+# Packaged gem artifacts
+*.gem
+pkg/
+
+# Bundler
+.bundle/
+vendor/bundle/
+# This is a gem library, not an application — the lockfile is not committed
+# so consumers resolve dependency versions against their own app.
+Gemfile.lock
+
+# Test / coverage output
+coverage/
+.rspec_status
+
+# YARD documentation
+.yardoc/
+doc/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor folders
+.idea/
+.vscode/
+*.iml
